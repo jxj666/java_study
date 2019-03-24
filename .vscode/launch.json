@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Cube_sum2",
+      "request": "launch",
+      "mainClass": "Cube_sum2"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Cube_sum",
+      "request": "launch",
+      "mainClass": "Cube_sum"
+    }
+  ]
+}
