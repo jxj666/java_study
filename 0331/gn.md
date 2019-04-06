@@ -4,7 +4,7 @@
  * @Email: jinxiaojian@youxin.com
  * @LastEditors: 靳肖健
  * @Date: 2019-03-31 22:32:09
- * @LastEditTime: 2019-04-01 11:18:10
+ * @LastEditTime: 2019-04-01 13:20:02
  -->
 
 ### java 第 4 讲 类、包和接口
@@ -86,5 +86,7 @@ Java 中的继承是通过 extends 关键字来实现的。
 在定义 final 局部变量时，也必须且只能赋值一次。
 
 enum 表示枚举。
+
+如果没有extends子句，则该类默认为java.lang.Object的子类。
 
 ```
