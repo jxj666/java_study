@@ -5,7 +5,7 @@
  * @Email: jinxiaojian@youxin.com
  * @LastEditors: ???
  * @Date: 2019-04-14 21:43:10
- * @LastEditTime: 2019-04-14 22:43:24
+ * @LastEditTime: 2019-04-14 23:12:27
  */
 
 public class ErrorWatch extends Exception {
@@ -22,7 +22,7 @@ public class ErrorWatch extends Exception {
 
 	public String toString() {
 
-		return "ErrorWatch: " + i1 + "," + i2;
+		return "ErrorWatch=> " + i1 + "," + i2;
 
 	}
 
