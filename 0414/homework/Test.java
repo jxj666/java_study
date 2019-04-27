@@ -4,7 +4,7 @@
  * @Email: jinxiaojian@youxin.com
  * @LastEditors: 靳肖健
  * @Date: 2019-04-14 21:44:22
- * @LastEditTime: 2019-04-14 22:45:43
+ * @LastEditTime: 2019-04-16 19:57:37
  */
 
 public class Test {
@@ -13,7 +13,7 @@ public class Test {
 
     int sum = 0;
 
-    if (a1 < 1 || a2 >  5) {// 求和的第一个数小于1或者第二个数大于5，抛异常
+    if (a1 < 1 || a2 > 5) {// 求和的第一个数小于1或者第二个数大于5，抛异常
 
       ErrorWatch e = new ErrorWatch(a1, a2);
 
