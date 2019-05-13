@@ -4,7 +4,7 @@
  * @Author: jinxiaojian
  * @Email: jinxiaojian@youxin.com
  * @Date: 2019-05-12 20:29:57
- * @LastEditTime: 2019-05-13 10:35:41
+ * @LastEditTime: 2019-05-13 10:59:42
  * @LastEditors: 靳肖健
  */
 import java.awt.BorderLayout;
@@ -43,7 +43,7 @@ public class Kg extends JFrame {
   // 初始化JFrame
   private void init() {
     this.setTitle("体重指数计算器");
-    this.setSize(1111, 222);
+    this.setSize(888, 222);
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// 点击关闭
     this.setLocationRelativeTo(null);// 设置居中
     this.setContentPane(createContentPane());// 创建主面板
@@ -64,15 +64,15 @@ public class Kg extends JFrame {
     JPanel p = new JPanel();
 
     // if (key == 1) {
-    JLabel label = new JLabel("性别：");
-    ButtonGroup bg = new ButtonGroup();
-    JRadioButton jrb1 = new JRadioButton("男");
-    JRadioButton jrb2 = new JRadioButton("女");
-    bg.add(jrb1);
-    bg.add(jrb2);
-    p.add(label);
-    p.add(jrb1);
-    p.add(jrb2);
+    // JLabel label = new JLabel("性别：");
+    // ButtonGroup bg = new ButtonGroup();
+    // JRadioButton jrb1 = new JRadioButton("男");
+    // JRadioButton jrb2 = new JRadioButton("女");
+    // bg.add(jrb1);
+    // bg.add(jrb2);
+    // p.add(label);
+    // p.add(jrb1);
+    // p.add(jrb2);
     // } else if (key == 2) {
 
     // 身高，输入框
