@@ -4,13 +4,12 @@
  * @Author: jinxiaojian
  * @Email: jinxiaojian@youxin.com
  * @Date: 2019-05-12 20:29:57
- * @LastEditTime: 2019-05-12 21:16:07
+ * @LastEditTime: 2019-05-13 10:35:41
  * @LastEditors: 靳肖健
  */
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Container;
-import java.awt.FlowLayout;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -32,6 +31,8 @@ import javax.swing.JTextField;
 public class Kg extends JFrame {
   JTextField height;
   JTextField weight;
+  JTextField name_val;
+
   JLabel result;
 
   // 构造函数
@@ -86,6 +87,7 @@ public class Kg extends JFrame {
     p.add(label_weight);
     p.add(weight);
     // }
+
     return p;
 
   }
@@ -93,23 +95,31 @@ public class Kg extends JFrame {
   // 中间的提交
   private Component createCenterPane() {
     JPanel p = new JPanel();
+    JLabel name = new JLabel("姓名：");
+    name_val = new JTextField("", 20);
+    p.add(name);
+    p.add(name_val);
+
     JButton button = new JButton("检测身体素质");
     button.addActionListener(new ActionListener() {
       @Override
       public void actionPerformed(ActionEvent arg0) {
         Double h = Double.valueOf(height.getText()) / 100;
         Double w = Double.valueOf(weight.getText());
+        String name = name_val.getText();
+
         Double bmi = w / (Math.pow(h, 2));
         if (bmi > 24) {
-          result.setText("体质指数（身体质量指数）: " + bmi + " \t  提示 : 偏胖");
+          result.setText(name + "体质指数（身体质量指数）: " + bmi + " \t  提示 : 胖");
         } else if (bmi < 20) {
-          result.setText("体质指数（身体质量指数）: " + bmi + " \t  提示 : 偏瘦");
+          result.setText(name + "体质指数（身体质量指数）: " + bmi + " \t  提示 : 瘦");
         } else {
-          result.setText("体质指数（身体质量指数）: " + bmi + " \t  提示 : 正常");
+          result.setText(name + "体质指数（身体质量指数）: " + bmi + " \t  提示 : 正常");
         }
       }
     });
     p.add(button);
+
     return p;
   }
 
