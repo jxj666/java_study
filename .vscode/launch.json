@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Proving",
+      "request": "launch",
+      "mainClass": "proving.Proving",
+      "projectName": "CORE_01"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - test1",
+      "request": "launch",
+      "mainClass": "test1",
+      "projectName": "java_study_c31ec932"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - Cube_sum2",
       "request": "launch",
       "mainClass": "Cube_sum2"

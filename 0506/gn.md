@@ -2,12 +2,10 @@
  * @Description: 
  * @Author: jinxiaojian
  * @Email: jinxiaojian@youxin.com
+ * @Date: 2019-05-13 11:01:21
+ * @LastEditTime: 2019-05-13 11:46:16
  * @LastEditors: 靳肖健
- * @Date: 2019-04-27 22:21:39
- * @LastEditTime: 2019-05-13 11:43:41
  -->
-
-
 线程类是Thread类来表示的。
 线程体可以位于Thread或Runnable中的run()方法。
 启动线程用start()方法。
@@ -18,9 +16,4 @@
 AtomicInteger 类表示原子变量。
 java.util.Timer类可以实现按周期重复执行一定任务。
 javax.swing.Timer类可以实现按周期重复执行一定任务。
-
-
-
-
-
 

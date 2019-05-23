@@ -6,5 +6,26 @@
     "**/.factorypath": true
   },
   "files.encoding": "gbk",
-  "files.autoGuessEncoding": true
+  "files.autoGuessEncoding": true,
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 2,
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.renderIndentGuides": false,
+  "editor.highlightActiveIndentGuide": false,
+  "java.home": "/usr/local/lib/jdk1.8.0_172",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 30,
+  "maven.executable.path": "/usr/local/bin/apache-maven-3.5.4/bin/mvn",
+  "java.configuration.maven.userSettings": "/usr/local/bin/apache-maven-3.5.4/conf/settings.xml",
+  "maven.terminal.customEnv": [
+    {
+      "environmentVariable": "JAVA_HOME",
+      "value": "/usr/local/lib/jdk1.8.0_172"
+    }
+  ],
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
+  "explorer.confirmDelete": false
 }
