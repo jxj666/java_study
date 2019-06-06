@@ -1,4 +1,4 @@
-package j0524;
+package j052401;
 
 import j051701.Phone;
 

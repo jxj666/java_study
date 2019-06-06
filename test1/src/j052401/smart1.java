@@ -1,4 +1,4 @@
-package j0524;
+package j052401;
 
 public class smart1 {
 	public static void main(String[] args) {
